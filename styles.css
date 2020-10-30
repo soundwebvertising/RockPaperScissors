@@ -1,0 +1,29 @@
+body {
+  background-color: #CCC;
+}
+
+.selections {
+  display: flex;
+  justify-content: center;
+  
+}
+
+.selection {
+  background: none;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  font-size: 3em;
+}
+
+.selection:hover {
+  transform: scale(1.1);
+}
+
+.results {
+  display: grid;
+  justify-content: center;
+  grid-template-columns: repeat(3, 1fr);
+  justify-items: center;
+  align-items: center;
+}
